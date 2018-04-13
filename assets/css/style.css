@@ -392,7 +392,7 @@ transition: .3s all ease;
 }
 
 .wave{
-  width: 203.8vh;
+  width: 100%;
   overflow: hide;
   margin-top: 100px;
 }
