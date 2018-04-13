@@ -1,0 +1,103 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@font-face {
+  font-family: "Baloo Bhaijaan";
+  font-style: normal;
+  src: url("https://fonts.gstatic.com/s/baloobhaijaan/v3/RWmRoKCU5fcqq8fOWNzFLqSjx7EFLGQ.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* End */
+
+body{
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.cancel{
+position: absolute;
+display: inline-block;
+width: 65px;
+height: 65px;
+background: #2980b9;
+text-align: center;
+line-height: 65px;
+border-radius: 50%;
+color: rgba(255,255,255,0.5);
+font-size: 30px;
+transition: all 0.3s ease-in-out;
+z-index: 1;
+margin-top: 20px;
+margin-left: -80px;
+}
+
+.title h1::after{
+  border-top: 2px solid #eb4d4b;
+  display: block;
+  width: 50px;
+  content: "";
+  margin: 5px auto 0;
+}
+
+.cancel:hover{
+  cursor: pointer;
+  color: white;
+}
+
+input{
+  background: #f5f6fa;
+  border: none;
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+input:hover , input:focus, input:disabled, input:active, input:enabled{
+  background: #f5f6fa;
+  border: none;
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.firstName{
+  width: 35%;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.lastName{
+  width: 35%;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.email{
+  width: 35%;
+  margin-top: 25px;
+  margin-right: 40px;
+}
+
+.bemail{
+  width: 35%;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+@media (max-width: 720px) {
+  .cancel-row{
+    justify-content: center;
+    margin-left: 140px;
+  }
+  .firstName{
+    margin-right: 0px;
+    width: 100%;
+  }
+  .lastName{
+    margin-left: 0px;
+    width: 100%;
+  }
+}

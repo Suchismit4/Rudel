@@ -1,0 +1,177 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@font-face {
+  font-family: "Baloo Bhaijaan";
+  font-style: normal;
+  src: url("https://fonts.gstatic.com/s/baloobhaijaan/v3/RWmRoKCU5fcqq8fOWNzFLqSjx7EFLGQ.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* End */
+
+body{
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.blackBrand{
+  color:  rgba(255, 255, 255, 0.8);
+  margin-top: 50px;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  transition: .6s ease;
+}
+
+.blackBrand:hover{
+  color:  rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+      text-shadow: 0px 0px 3px #f5f5f5;
+}
+
+.bar1, .bar2, .bar3{
+width: 35px;
+height: 5px;
+background-color: rgba(255, 255, 255, 0.8);
+margin: 6px 0;
+transition: .3s all ease;
+}
+
+.pack{
+  font-family: "Montserrat", sans-serif;
+  margin-top: 35px;
+}
+
+.pack h1::after{
+  border-top: 2px solid #e59722;
+  display: block;
+  width: 81px;
+  content: "";
+  margin: 5px auto 0;
+}
+
+.packs{
+  padding: 20px;
+  width: 300px;
+  margin-top: 40px;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 2px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 1px 5px 20px 4px rgba(0,0,0,0.2);
+  box-shadow: 1px 5px 20px 4px rgba(0,0,0,0.2);
+
+}
+
+.packName{
+  font-family: Baloo Bhaijaan;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.btn-primary{
+  background:#4834d4;
+  border-radius: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:disabled{
+    background:#4834d4;
+    border-radius: none;
+    border: none;
+}
+
+.btn .btn-primary{
+  border-radius: none !important;
+}
+
+.btn {
+  border-radius: none !important;
+}
+
+.wave{
+  width: 203.8vh;
+  overflow: hide;
+  margin-top: 90px;
+}
+
+.main-white{
+  margin-top: 0px;
+}
+
+.main-white h1{
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+}
+
+.main-white h1::after{
+  border-top: 2px solid #eb4d4b;
+  display: block;
+  width: 81px;
+  content: "";
+  margin: 5px auto 0;
+}
+
+.comparePack{
+  padding: 20px;
+  width: 350px;
+  margin-top: 40px;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 2px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 1px 5px 20px 4px rgba(0,0,0,0.2);
+  box-shadow: 1px 5px 20px 4px rgba(0,0,0,0.2);
+}
+
+.comparePack .packName p{
+  margin: 0px;
+  margin-bottom: -12px;
+}
+
+.packsFeatures p{
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+}
+
+hr{
+  border-top: 2px solid #4834d4;
+  display: block;
+  width: 81px;
+  content: "";
+  margin: 5px auto 0;
+}
+
+.line{
+  border-top: 2px solid #535c68;
+  display: block;
+  width: 100%;
+  content: "";
+  margin-top: -1px;
+}
+
+.fa-check{
+  color: #6ab04c;
+  font-size: 30px;
+}
+
+.fa-times{
+  color: #d63031;
+}
+
+.packFeat{
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.packButton{
+  margin-top: 15px;
+}
+
+footer{
+  margin-top: -120px;
+}
