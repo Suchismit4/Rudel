@@ -27,7 +27,7 @@ body{
 .blackBrand {
   color:  rgba(255, 255, 255, 1.0);
   font-size: 90px;
-  margin-top: -100px;
+  padding-top: -100px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   transition: .6s ease;
